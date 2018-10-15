@@ -56,6 +56,6 @@ OR
     - Hover information
     - Optional floor plan
   - ### Save virtual tours
-    - .VT (.xml in disguise)
+    - .VT (.json in disguise)
     - Node information
     - Image path information
