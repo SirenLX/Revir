@@ -22,13 +22,13 @@ OR
 
 # Task List
 - ## Login/Registration
- - ### Security
-  - Max retry limit
-  - Strong password requirement (Upper, Lower, Symbols, Numbers)
-  - Password/Username Storage
- - ### Accessibility
-  - Multiple login locations
-  - Social Account OAuth
+  - ### Security
+    - Max retry limit
+    - Strong password requirement (Upper, Lower, Symbols, Numbers)
+    - Password/Username Storage
+  - ### Accessibility
+    - Multiple login locations
+    - Social Account OAuth
 - ## Virtual tour editing
   - ### Upload images
     - Panoramic images
