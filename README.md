@@ -1,6 +1,4 @@
-Revir - Online Virtual Tour editor
-
-# About
+# Revir - Online Virtual Tour editor
 revir is an online virtual tour editor made for Imme VR.
 
 # Install Instructions
@@ -23,23 +21,41 @@ OR
 - View virtual tours
 
 # Task List
-- ## Upload panoramic images
-- ## Display panoramic images
-- ## Save virtual tours
-- ## Add branding/watermarks
-- ## Drag N Drop hotspots
+- ## Login/Registration
+ - ### Security
+  - Max retry limit
+  - Strong password requirement (Upper, Lower, Symbols, Numbers)
+  - Password/Username Storage
+ - ### Accessibility
+  - Multiple login locations
+  - Social Account OAuth
 - ## Virtual tour editing
+  - ### Upload images
+    - Panoramic images
+    - Branding/watermarks
+    - Node icons
   - ### Hotspot/Node editing
-   - Rename
-   - Add node link
-   - Add icon
-   - Add image
+    - Create node
+    - Rename node
+    - Link nodes
+    - Add node icon
+    - Add node image
   - ### Gallery
-   - Preview nodes
-   - Preview node tree
+    - Load from database
+    - Preview images
+    - Add images
+    - Remove images
   - ### Photo editing
-   - Brightness
-   - Contrast
-   - Temperature
-   - Saturation
-   - Hue
+    - Brightness
+    - Contrast
+    - Temperature
+    - Saturation
+    - Hue
+  - ### Node tree
+    - Node link information
+    - Hover information
+    - Optional floor plan
+  - ### Save virtual tours
+    - .VT (.xml in disguise)
+    - Node information
+    - Image path information
