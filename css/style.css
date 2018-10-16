@@ -45,5 +45,10 @@ body {
 .revir {
     font-family: 'Decomart';
     color: white;
-    font-size: 40px;
+    padding-top: 1%;
+    font-size: 30px;
+}
+
+.ppr {
+    padding-right: 150px;
 }
