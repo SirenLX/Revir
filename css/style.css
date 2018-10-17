@@ -8,6 +8,12 @@ body {
     font-family: 'Open Sans';
 }
 
+/*
+.li {
+    text-align: center;
+}
+*/
+
 .starter-template {
     padding: 15rem 1.5rem;
     text-align: center;
@@ -47,8 +53,40 @@ body {
     color: white;
     padding-top: 1%;
     font-size: 30px;
+    margin-bottom: 8px;
 }
 
 .ppr {
-    padding-right: 150px;
+    padding-right: 50px;
 }
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.dropdown-menu {
+    background-color: black;
+    width: 250px;
+    left:50%;
+    margin-left:-125px;
+}
+
+.dropdown-item {
+    color: white;
+    padding: 0px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#logout{
+    color: 007BFF;
+}
+
+
+/*
+#navbarTogglerDemo03 {
+    margin-left: 45%;
+}
+*/
