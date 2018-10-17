@@ -1,8 +1,6 @@
-/* Main function loop */
-$(function() {
-  //Dont allow use of undeclared variables
-  "use strict";
-
-  var a;
-
-});
+function a(c, b, d){
+	c = 1;
+	b = c;
+	d = b;
+	return d;
+}a();
