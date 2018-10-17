@@ -23,7 +23,7 @@
 
 
 
-    <body class="home-bg">
+    <body class="contact-bg">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
@@ -39,7 +39,7 @@
                                 <li class="nav-item"><a class="nav-link" href="#">ACCOUNT</a>
                                 <li class="nav-item"><a class="nav-link" href="#">CREATE TOUR</a></li>
                                 <li class="nav-item"><a class="nav-link" href="#">PRODUCTS</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">CONTACT US</a></li>
+                                <li class="nav-item"><a class="nav-link active" href="#" id="blue-font">CONTACT US</a></li>
                             </ul>
                             <ul class="navbar-nav ml-auto ppr">
                                 <li class="nav-item dropdown">
@@ -52,7 +52,7 @@
                                         <a class="dropdown-item" href="#">BILLING INFORMATION</a>
                                         <a class="dropdown-item" href="#">CHANGE PASSWORD</a>
                                         <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" id="blue-font" href="./index.html">LOG OUT</a>
+                                        <a class="dropdown-item" id="logout" href="./index.html">LOG OUT</a>
                                     </div>
                             </ul>
                         </div>
@@ -62,11 +62,60 @@
         </div>
 
         <main role="main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
 
-            <div class="starter-template white">
-                <h1 class="h1-lg">Elegant Virtual Tours Solution</h1>
-                <p class="lead">Revolutionising the way information is presented to our end users with 360&deg; images</p>
-                <button type="button" class="btn btn-primary btn-lg">Get Started</button>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card">
+                            <div class="card-body">
+                                <h1>CONTACT US</h1>
+                                <hr class="style1">
+                                <p class="lead font14">Feel free to contact us with any doubts or questions that you might have. We will get back to you as soon as we can</p>
+
+                                <div class="row">
+                                    <div class="col-6 col-md-4">                                
+                                        <h5 id="blue-font">General Information:</h5>
+                                        <p>info@revir.co</p></div>
+                                    <div class="col-6 col-md-4">                               
+                                        <h5 id="blue-font">Pre-Sales Question:</h5>
+                                        <p>sales@revir.co</p></div>
+                                    <div class="col-6 col-md-4">                              
+                                        <h5 id="blue-font">Technical Support:</h5>
+                                        <p>support@revir.co</p></div>
+
+
+
+
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <h5 id="blue-font">Or send an instant message now</h5>
+                                            <form>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your name">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Your email">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Your company">
+                                                </div>
+                                                <div class="form-group">
+                                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Your inquiry"></textarea>
+                                                </div>
+                                            </form>
+                                            <button id="contacts-submit" type="submit" class="btn btn-default btn-info">SEND</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <input type="hidden" value="">
+                            </div><!-- end panel-body -->
+                        </div><!-- end panel -->
+                        <!-- END DOWNLOAD PANEL -->
+                    </div><!-- end col-md-8 -->
+                    <div class="col-md-2"> </div>
+                </div>
             </div>
         </main><!-- /.container -->
 
