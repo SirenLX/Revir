@@ -115,7 +115,7 @@ a.loginf {
 }
 /*
 #navbarTogglerDemo03 {
-    margin-left: 45%;
+margin-left: 45%;
 }
 */
 
@@ -126,10 +126,57 @@ p.font14 {
     font-size: 14px;
 }
 hr.style1 {
-	border-top: 3px solid #007BFF;
+    border-top: 3px solid #007BFF;
 }
 
 h1.unbold {
     font-weight: lighter;
     font-size: 60px;
+}
+
+.cent {
+    text-align: center;
+}
+
+.txtl{
+    text-align: left;
+}
+
+.txtr{
+    text-align: right;
+}
+
+.modal-footer, .modal-body {
+    background-color: #595959;
+}
+
+.modal-header {
+    background-color: #007BFF;
+    padding: 10px;
+}
+
+.modal-content {
+    border: 0px;
+}
+
+.headerDivider {
+    border-left: 1px solid #EEEEEE;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+
+}
+
+.btn-lng {
+    width: 100%;
+}
+
+.zplus {
+    padding: 0%;
+}
+
+.fontexpand {
+    font-size: 200%;
 }
