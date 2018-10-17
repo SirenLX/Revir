@@ -24,25 +24,36 @@
 
 
     <body class="home-bg">
-
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
                     <nav class="navbar navbar-expand-md fixed-top">
-                        <a class="navbar-brand revir" href="./index.html"><img src="images/LogoTest3.png" width=40px alt="Revir Logo"> revir</a>
+                        <a class="navbar-brand revir" href="./home-logged.html"><img src="images/LogoTest3.png" width=40px alt="Revir Logo"> revir</a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                             <i class="fas fa-bars"></i>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                           <ul class="navbar-nav mr-auto">
-                            <li class="nav-item"><a class="nav-link" href="#">EXPLORE</a>
-                            <li class="nav-item"><a class="nav-link" href="#">PRODUCTS</a></li>
-                            <li class="nav-item"><a class="nav-link" href="./contact.html">CONTACT US</a></li>
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item"><a class="nav-link" href="#">EXPLORE</a>
+                                <li class="nav-item"><a class="nav-link" href="#">MY LIBRARY</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">ACCOUNT</a>
+                                <li class="nav-item"><a class="nav-link" href="#">CREATE TOUR</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">PRODUCTS</a></li>
+                                <li class="nav-item"><a class="nav-link" href="./contact-logged.html">CONTACT US</a></li>
                             </ul>
-                            <ul class="navbar-nav ml-auto">
-                                <li class="nav-item"><a class="nav-link login" href="#">LOGIN <i class="fas fa-user"></i></a></li>
-                                <li class="nav-item"><a href="#" class="nav-link white">Check out our plans</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">SIGN UP</a></li>
+                            <ul class="navbar-nav ml-auto ppr">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle loginf" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        SPOTWORKS
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">ACCOUNT</a>
+                                        <a class="dropdown-item" href="#">TRANSACTION HISTORY</a>
+                                        <a class="dropdown-item" href="#">BILLING INFORMATION</a>
+                                        <a class="dropdown-item" href="#">CHANGE PASSWORD</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" id="blue-font" href="./index.html">LOG OUT</a>
+                                    </div>
                             </ul>
                         </div>
                     </nav>
@@ -53,7 +64,7 @@
         <main role="main">
 
             <div class="starter-template white">
-                <h1 class="unbold">Elegant Virtual Tours Solution</h1>
+                <h1 class="h1-lg">Elegant Virtual Tours Solution</h1>
                 <p class="lead">Revolutionising the way information is presented to our end users with 360&deg; images</p>
                 <button type="button" class="btn btn-primary btn-lg">Get Started</button>
             </div>
