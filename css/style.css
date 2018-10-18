@@ -188,14 +188,14 @@ h1.unbold {
     padding-right: 15px;
     padding-top: 4px;
     padding-bottom: 4px;
-        margin-top: 22px;
+    margin-top: 22px;
     margin-bottom: 15px;
 }
 
 #facebook {
     background-color: #2a5297;
     border-color: #2a5297;
-        padding-left: 15px;
+    padding-left: 15px;
     padding-right: 15px;
     padding-top: 4px;
     padding-bottom: 4px;
@@ -216,10 +216,26 @@ h1.unbold {
     margin-top: 15px;
 }
 
+#spacinglogin2 {
+    margin-top: 170px;
+}
+
+#spacingSlogin {
+    margin-top: 4px;
+    background-color: #02bf7a;
+    border-color:  #02bf7a;
+    width: 100%;
+}
+
 .bluerevir {
     background-color: #02a2dd;
 }
 
 .bluetxt {
     color: #02a2dd;
+}
+
+label.signup {
+    margin-bottom: 0px;
+    padding-top: 5px;
 }

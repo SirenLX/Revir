@@ -40,9 +40,9 @@
                                 <li class="nav-item"><a class="nav-link" href="./contact.html">CONTACT US</a></li>
                             </ul>
                             <ul class="navbar-nav ml-auto">
-                                <li class="nav-item"><a class="nav-link login" href="#" data-toggle="modal" data-target="#exampleModalCenter">LOGIN <i class="fas fa-user"></i></a></li>
+                                <li class="nav-item"><a class="nav-link login" href="#" data-toggle="modal" data-target="#ModalLogin">LOGIN <i class="fas fa-user"></i></a></li>
                                 <li class="nav-item"><a href="#" class="nav-link white">Check out our plans</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModalCenter">SIGN UP</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#" data-toggle="modal" data-target="#ModalSignup">SIGN UP</a></li>
                             </ul>
                         </div>
                     </nav>
@@ -50,8 +50,8 @@
             </div>
         </div>
 
-        <!-- Modal -->
-        <div class="modal fade bd-example-modal-lg" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <!-- Modal for Login -->
+        <div class="modal fade bd-example-modal-lg" id="ModalLogin" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg " role="document">
                 <div class="modal-content cent">
                     <div class="modal-header bluerevir">
@@ -75,9 +75,10 @@
                     <div class="modal-body">
                         <div class="row">
                             <div class="col-md-12">
+                                <!--Vertical Line Divider-->
                                 <div class="headerDivider">
-
                                 </div>
+                                <!--                                Column 1-->
                                 <div class="row">
                                     <div class="col-md-6 cent">
                                         <h class="white">Login with Email</h>
@@ -101,41 +102,43 @@
                                                     <a href="#">Forgot details?</a>
                                                 </div>
                                             </div>
-                                            
-                                            <button type="submit" class="btn btn-primary btn-lng bluerevir" id="spacinglogin">LOG IN</button>
+
+                                            <a type="submit" class="btn btn-primary btn-lng bluerevir" id="spacinglogin" href="./home-logged.html" role="button">LOG IN</a>
                                         </form>
                                     </div>
-
+                                    <!--Column 2-->
                                     <div class="col-md-6">
                                         <h class="white">Login with Social Networks</h>
                                         <br>
                                         <br>
                                         <button type="button" class="btn btn-primary btn-lg btn-block txtl" id="facebook">
-                                        <div class="row">
-                                        <div class="col-md-2">
-                                            <i class="fab fa-facebook-f"></i>
-                                        </div>
-                                        <div class="col-md-8">
-                                            Login with Facebook
-                                        </div>
-                                        <div class="col-md-2">           
-                                        </div>
-                                        </div>
+                                            <div class="row">
+                                                <div class="col-md-2">
+                                                    <i class="fab fa-facebook-f"></i>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    Login with Facebook
+                                                </div>
+                                                <div class="col-md-2">           
+                                                </div>
+                                            </div>
                                         </button>
                                         <button type="button" class="btn btn-primary btn-lg btn-block txtl" id="twitter">
-                                        <div class="row">
-                                        <div class="col-md-2">
-                                            <i class="fab fa-twitter"></i>
-                                        </div>
-                                        <div class="col-md-8">
-                                            Login with Twitter
-                                        </div>
-                                        <div class="col-md-2">           
-                                        </div>
-                                        </div>
+                                            <div class="row">
+                                                <div class="col-md-2">
+                                                    <i class="fab fa-twitter"></i>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    Login with Twitter
+                                                </div>
+                                                <div class="col-md-2">           
+                                                </div>
+                                            </div>
                                         </button>
-                                        <a class= "txtr white " href="#">Don't have an account?</a>
-                                        <button type="submit" class="btn btn-primary btn-lng" id="joinnow">JOIN NOW</button>
+                                        <div class="white">
+                                            <a>Don't have an account?</a>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary btn-lng" id="joinnow" data-toggle="modal" data-target="#ModalSignup" data-dismiss="modal" data-taget="#ModalSignup">JOIN NOW</button>
                                     </div>
                                 </div>
                             </div>
@@ -145,6 +148,106 @@
             </div>
         </div>
 
+        <!-- Modal for Register -->
+        <div class="modal fade bd-example-modal-lg" id="ModalSignup" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg " role="document">
+                <div class="modal-content cent">
+                    <div class="modal-header bluerevir">
+                        <div class="container-fluid">
+                            <div class="row zplus">
+                                <div class="col-sm-11">
+
+                                </div>
+                                <div class="col-sm-1">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="col-md-12">
+
+                                    <h5 class="modal-title white" id="exampleModalLongTitle">Sign up for revir</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <!--    Vertical Line Divider-->
+                                <div class="headerDivider">
+                                </div>
+                                <!--                                Column 1-->
+                                <div class="row">
+                                    <div class="col-md-6 cent">
+                                        <h class="white">Sign up for an Account</h>
+                                        <br>
+                                        <br>
+                                        <form>
+                                            <div class="form-group">
+                                                <div class="txtl white">
+                                                    <label class="signup" for="signupUsername">Choose a username</label>
+                                                </div>
+                                                <input type="text" class="form-control" id="signupUsername" placeholder="Username">
+                                                <div class="txtl white">
+                                                    <label class="signup" for="signupEmail">Enter your email address</label>
+                                                    <input type="text" class="form-control" id="signupEmail" placeholder="Email">
+                                                </div>
+                                                <div class="txtl white">
+                                                    <label class="signup" for="signupPw">Choose a password</label>
+                                                    <input type="text" class="form-control" id="signupPw" placeholder="Password">
+                                                </div>
+                                                <div class="txtl white">
+                                                    <label class="signup" for="signupCfmPw">Re-enter your password</label>
+                                                    <input type="text" class="form-control" id="signupCfmPw" placeholder="Confirm Password">
+                                                </div>
+
+                                            </div>
+
+                                            <button type="submit" class="btn btn-primary btn-lng bluerevir" id="spacinglogin">CREATE ACCOUNT</button>
+                                        </form>
+                                    </div>
+                                    <!--                                    Column 2-->
+                                    <div class="col-md-6">
+                                        <h class="white">Login with Social Networks</h>
+                                        <br>
+                                        <br>
+                                        <button type="button" class="btn btn-primary btn-lg btn-block txtl" id="facebook">
+                                            <div class="row">
+                                                <div class="col-md-2">
+                                                    <i class="fab fa-facebook-f"></i>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    Login with Facebook
+                                                </div>
+                                                <div class="col-md-2">           
+                                                </div>
+                                            </div>
+                                        </button>
+                                        <button type="button" class="btn btn-primary btn-lg btn-block txtl" id="twitter">
+                                            <div class="row">
+                                                <div class="col-md-2">
+                                                    <i class="fab fa-twitter"></i>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    Login with Twitter
+                                                </div>
+                                                <div class="col-md-2">           
+                                                </div>
+                                            </div>
+                                        </button>
+                                        <div class= "white" id="spacinglogin2">
+                                            <a>Already have an account?</a>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary btn-lng" id="spacingSlogin"  data-dismiss="modal" data-taget="#ModalSignup" data-toggle="modal" data-target="#ModalLogin">LOG IN</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
         <main role="main">
 
             <div class="starter-template white">
