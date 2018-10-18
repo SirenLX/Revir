@@ -106,7 +106,7 @@ a.loginf {
     font-size: 12px;
 }
 
-#blue-font{
+.blue-font{
     color: #007BFF;
 }
 
@@ -181,18 +181,18 @@ h1.unbold {
     font-size: 200%;
 }
 
-#twitter {
+.twitter {
     background-color: #55acee;
     border-color: #55acee;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 4px;
     padding-bottom: 4px;
-    margin-top: 22px;
+    margin-top: 0px;
     margin-bottom: 15px;
 }
 
-#facebook {
+.facebook {
     background-color: #2a5297;
     border-color: #2a5297;
     padding-left: 15px;
@@ -200,7 +200,7 @@ h1.unbold {
     padding-top: 4px;
     padding-bottom: 4px;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 22px;
     width: 100%;
 }
 
