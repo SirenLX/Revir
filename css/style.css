@@ -163,7 +163,7 @@ h1.unbold {
     border-left: 1px solid #EEEEEE;
     height: 100%;
     position: absolute;
-    left: 50%;
+    left: 50.3%;
     margin-left: -3px;
     top: 0;
 
@@ -179,4 +179,47 @@ h1.unbold {
 
 .fontexpand {
     font-size: 200%;
+}
+
+#twitter {
+    background-color: #55acee;
+    border-color: #55acee;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+        margin-top: 22px;
+    margin-bottom: 15px;
+}
+
+#facebook {
+    background-color: #2a5297;
+    border-color: #2a5297;
+        padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+#joinnow {
+    background-color: #02bf7a;
+    border-color:  #02bf7a;
+    margin-top: 15px;
+    width: 100%;
+}
+
+
+#spacinglogin {
+    margin-top: 15px;
+}
+
+.bluerevir {
+    background-color: #02a2dd;
+}
+
+.bluetxt {
+    color: #02a2dd;
 }
