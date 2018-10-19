@@ -5,7 +5,8 @@
 
 body {
     padding-top: 5rem;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans Light';
+    
 }
 
 #email {
@@ -17,8 +18,10 @@ a.navbar-brand:hover {
 }
 
 .starter-template {
-    padding: 15rem 1.5rem;
+    padding-top: 18%;
+    padding-bottom: 18%;
     text-align: center;
+    
 }
 
 .home-bg{
