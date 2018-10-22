@@ -156,6 +156,7 @@ h1.unbold {
 .modal-header {
     background-color: #007BFF;
     padding: 10px;
+    border-color: #007BFF;
 }
 
 .modal-content {
