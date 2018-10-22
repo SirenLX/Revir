@@ -24,8 +24,8 @@ a.navbar-brand:hover {
 
 }
 
-.home-bg{
-    background-image: url('../images/landingpage-bg.png');
+.account-bg{
+    background-color: #333333;
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -33,6 +33,13 @@ a.navbar-brand:hover {
 
 .contact-bg{
     background-image: url('../images/contact-bg.png');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.home-bg{
+    background-image: url('../images/landingpage-bg.png');
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -242,4 +249,13 @@ h1.unbold {
 label.signup {
     margin-bottom: 0px;
     padding-top: 5px;
+}
+
+.list-group-item {
+    background-color: black;
+    color: white;
+}
+
+.list-group-item.active {
+    background-color: #00b4ff;
 }

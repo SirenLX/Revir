@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="../../../../favicon.ico">
+
+        <title>revir | Online Virtual Tour Editor</title>
+
+        <!-- Bootstrap core CSS -->
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+        <!-- Custom styles for this template -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+        <!--        Google Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    </head>
+
+    <!--   Nav Bar-->
+    <body class="account-bg">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-expand-md fixed-top">
+                        <a class="navbar-brand revir" href="./home-logged.html"><img src="images/LogoTest3.png" width="40px" alt="Revir Logo"> revir</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item"><a class="nav-link" href="#">EXPLORE</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">MY LIBRARY</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">ACCOUNT</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">CREATE TOUR</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">PRODUCTS</a></li>
+                                <li class="nav-item"><a class="nav-link active" href="#" id="blue-font">CONTACT US</a></li>
+                            </ul>
+                            <ul class="navbar-nav ml-auto ppr">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        SPOTWORKS
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">ACCOUNT</a>
+                                        <a class="dropdown-item" href="#">TRANSACTION HISTORY</a>
+                                        <a class="dropdown-item" href="#">BILLING INFORMATION</a>
+                                        <a class="dropdown-item" href="#">CHANGE PASSWORD</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" id="logout" href="./contact.html">LOG OUT</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <!--       Main Body-->
+        <main role="main">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-2">
+                        <div class="list-group" id="list-tab" role="tablist">
+                            <a class="list-group-item list-group-item-action active" id="account-settings" data-toggle="list" href="#list-account" role="tab" aria-controls="account">Account Settings</a>
+                            <a class="list-group-item list-group-item-action" id="payments-history" data-toggle="list" href="#list-payments" role="tab" aria-controls="payments">Payments History</a>
+                            <a class="list-group-item list-group-item-action" id="billing-information" data-toggle="list" href="#list-billing" role="tab" aria-controls="billing">Billing Information</a>
+                            <a class="list-group-item list-group-item-action" id="change-password" data-toggle="list" href="#list-password" role="tab" aria-controls="changepassword">Change Password</a>
+                        </div>  
+                    </div>
+                    <div class="col-md-5">
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="list-account" role="tabpanel" aria-labelledby="account-settings">...</div>
+                            <div class="tab-pane fade" id="list-payments" role="tabpanel" aria-labelledby="payments-history">...</div>
+                            <div class="tab-pane fade" id="list-billing" role="tabpanel" aria-labelledby="billing-information">...</div>
+                            <div class="tab-pane fade" id="list-password" role="tabpanel" aria-labelledby="change-password">...</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+        <!-- Bootstrap core JavaScript
+================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    </body>
+</html>
