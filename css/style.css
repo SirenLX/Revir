@@ -9,9 +9,6 @@ body {
 
 }
 
-#email {
-    color: black;
-}
 
 a.navbar-brand:hover {
     color: white;
@@ -258,4 +255,8 @@ label.signup {
 
 .list-group-item.active {
     background-color: #00b4ff;
+}
+
+.email {
+    color:black;
 }
