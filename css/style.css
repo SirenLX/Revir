@@ -392,3 +392,8 @@ label.signup {
 #navbar2 {
     top: -30%;
 }
+
+.navbar-fixed-top.scrolled {
+  background-color: #2a2a2a !important;
+  transition: background-color 400ms linear;
+}
