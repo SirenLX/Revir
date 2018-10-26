@@ -313,7 +313,7 @@ label.signup {
 
 .carousel {
     position: absolute;
-    height: 100%;
+    height: 100vh;
     overflow: hidden;
 }
 
@@ -395,7 +395,7 @@ label.signup {
 }
 
 .navbar-fixed-top.scrolled {
-    background-color: #2a2a2a !important;
+    background-color: rgb(29,29,29); !important;
     transition: background-color 400ms linear;
 }
 
@@ -471,4 +471,13 @@ label.signup {
 .dropdown:hover .dropdown-menu {
     max-height: 200px;
     opacity: 1;
+}
+
+.viewourpdt {
+    padding: 3px 15px;
+    border-radius: 30px;
+}
+
+.navbar-expand-md{
+    padding: 0 10px;
 }
