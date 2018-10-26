@@ -481,3 +481,7 @@ label.signup {
 .navbar-expand-md{
     padding: 0 10px;
 }
+
+.dropdown-menu{
+    border-bottom-color: #02a2dd;
+}
