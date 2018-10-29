@@ -435,7 +435,7 @@ label.signup {
 
 .posts {
     background-color: rgb(234, 234, 234);
-    height: 200vh;
+    padding-bottom: 150px;
 }
 
 .card-text {
